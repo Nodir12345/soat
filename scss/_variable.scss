@@ -1,0 +1,26 @@
+ /*[this is where magic is brewed]*/
+  
+ $size: 95vmin;
+ $hue-primary: 30;
+ $bg-sat: 10%;
+ $primary-color: hsla($hue-primary, 100%, 50%, 1);
+ $complementary-color: complement($primary-color);
+ $inverted-color: invert($primary-color);
+ $gear-color-0: desaturate($complementary-color, 80%);
+ $second-hand: hsla($hue-primary, $bg-sat, 30%, 1);
+ $minute-hand: hsla($hue-primary, $bg-sat, 25%, 1);
+ $hour-hand: hsla($hue-primary, $bg-sat, 20%, 1);
+ $gear-front: hsla($hue-primary, $bg-sat, 15%, 1);
+ $gear-back: hsla($hue-primary, $bg-sat, 10%, 1);
+ $back-drop: hsla($hue-primary, $bg-sat, 6%, 1);
+ $besier-relaxed: cubic-bezier(.75, 0, .25, 1);
+ //#test {
+ //position: absolute;
+//top: 1rem;
+//left: -1rem;
+// width: 2rem;
+//height: 2rem;
+//border: .25rem solid $primary-color;
+//background: $inverted-color;
+//animation: circle 60s steps(60) infinite;
+// }
